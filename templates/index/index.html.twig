@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Head -->
+<head>
+    <title>Quai Antique</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ include('Layout/headLayout.html.twig') }}
+    <link rel="stylesheet" href="{{ asset('CSS/index.css') }}">
+</head>
+<!-- END Head -->
+
+<!-- NavBar -->
+{{ include('Layout/navbarLayout.html.twig') }}
+<!-- END NavBar -->
+
+
+<div class="container w3-center" style="margin-top: 100px">
+{% for message in app.flashes('success') %}
+    <div class="alert alert-success mt-4">
+        <h3>{{ message }}</h3>
+    </div>
+</div>
+{% endfor %}
+<body>
+
+<!-- Header -->
+<header class="container w3-content w3-center" style="max-width:1600px;min-width:500px">
+
+    <h1 style="margin-top: 120px" class="w3-xxxlarge"> Bienvenue à Quai Antique</h1>
+    <h3 style="margin-top: 20px" class="w3-xlarge"> La référence de la gastronomie savoyarde</h3>
+
+    <div class="mySlides">
+        <img style="margin-top: 60px" class="w3-image w3-animate-fading" src="
+
+
+            " alt="Image fondu savoyarde" width="1024" height="591">
+        <div class="w3-padding-large w3-min-opacity w3-display-center">
+            <h1 class="w3-xxlarge">Tartiflette savoyarde</h1>
+        </div>
+    </div>
+
+    <div class="mySlides">
+    <img style="margin-top: 60px" class="w3-image w3-animate-fading w3-min-opacity" src="
+
+
+        " alt="Image fondu savoyarde" width="1024" height="591">
+    <div class="w3-padding-large w3-max-opacity w3-display-center">
+        <h1 class="w3-xxlarge">Croûte savoyarde</h1>
+    </div>
+    </div>
+
+    <div class="mySlides">
+        <img style="margin-top: 60px" class="w3-image w3-animate-fading" src="
+
+
+            " alt="Image fondu savoyarde" width="1024" height="591">
+        <div class="w3-padding-large w3-min-opacity w3-display-center">
+            <h1 class="w3-xxlarge">Fondue savoyarde</h1>
+        </div>
+    </div>
+
+    <hr>
+    <h1 class="w3-center" style="font-size : 40px">Mos menus</h1><br><br />
+                {% for menus in menu %}
+            <h1 class="w3-center">{{ menus.formules }}<br> </h1><br>
+    <h2>{{ menus.description }} - {{ menus.price / 100|number_format(2) }} €</h2><br />
+    {% endfor %}
+    <hr>
+
+    <div class="w3-content" style="max-width:1100px">
+
+        <!-- About Section -->
+        <div class="w3-row w3-padding-64">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="{{ asset('img/Le farçon.jpg') }}" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">À propos de Quai Antique</h1><br>
+                <h5 class="w3-center">Un voyage dans l'univers culinaire de la Savoie</h5><br>
+                <p class="w3-large">Le Chef Arnaud Michant aime passionnément les produits, producteurs de la Savoie.
+                    C’est pourquoi, Quai Antique vous propose plus qu'un simple repas, une experience gastronomique au déjeuner comme au dîner à travers une cuisine sans artifice.
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+</body>
+
+<script>
+    let myIndex = 0;
+    carousel();
+
+    function carousel() {
+        let i;
+        let x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 9000);
+    }
+</script>
+
+<footer>
+    {{ include('Layout/footerLayout.html.twig') }}
+</footer>
+
+</html>
+
+

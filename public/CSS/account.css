@@ -1,0 +1,8 @@
+h1, h2, h3, h4, h5, h6, a, body, footer {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px;
+}
+body {
+    background-color: #342c1f;
+    color: white;
+}

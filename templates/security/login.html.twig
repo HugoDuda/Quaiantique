@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Head -->
+<head>
+    <title>Quai Antique - connexion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ include('Layout/headLayout.html.twig') }}
+    <link rel="stylesheet" href="{{ asset('CSS/security.css') }}">
+</head>
+<!-- END Head -->
+
+<!-- NavBar -->
+{{ include('Layout/navbarLayout.html.twig') }}
+<!-- END NavBar -->
+
+<body>
+<div class="container text-center" style="margin-top: 100px">
+
+    {% for message in app.flashes('success') %}
+        <div class="alert alert-success mt-4">
+            {{ message }}
+        </div>
+    {% endfor %}
+
+    {% for message in app.flashes('error') %}
+        <div class="alert alert-success mt-4">
+            {{ message }}
+        </div>
+    {% endfor %}
+
+    <h1 class="mt-4 position-relative">Formulaire de connexion</h1>
+        <form action="{{ path('security.login') }}" method="post">
+            <div class="form-group">
+                <label for="username" class="form-label mt-4" >Adresse email</label>
+                <input type="email" class="form-control" id="username" name="_username">
+                <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+            <div class="form-group w3-padding-32">
+                <label for="password" class="form-label mt-4">Mot de passe</label>
+                <input type="password" class="form-control" id="password" name="_password">
+            </div>
+
+            <button type="submit" class="btn w3-hover-pale-yellow w3-amber" style="font-size: 23px; font-family: 'Oleo Script Swash Caps', cursive;">
+                Se connecter
+            </button>
+        </form>
+    <p class="p-4">Vous n'avez pas de compte client ? : <a href="/inscription"> Créer un compte client</a></p>
+    </div>
+</body>

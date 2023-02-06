@@ -1,0 +1,23 @@
+body {font-family: "Times New Roman", Georgia, serif;}
+h1, h2, h3, h4, h5, h6, a, footer {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px;
+}
+body {
+    background-color: #342c1f;
+    color: white;
+}
+.margin-top {
+    margin-top: 280px;
+}
+.margin-top2 {
+    margin-top: 150px;
+}
+@media (max-width: 600px) {
+    .margin-top {
+        margin-top: 50px;
+    }
+    .margin-top2 {
+        margin-top: 25px;
+    }
+}

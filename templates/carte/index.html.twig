@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Head -->
+<head>
+    <title>Quai Antique - Notre carte</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ include('Layout/headLayout.html.twig') }}
+    <link rel="stylesheet" href="{{ asset('CSS/carte.css') }}">
+</head>
+<!-- END Head -->
+
+<!-- NavBar -->
+{{ include('Layout/navbarLayout.html.twig') }}
+<!-- END NavBar -->
+
+<body>
+<div class="w3-main w3-row T1" style="margin-left:350px;">
+<div class="w3-container w3-half" style="margin-top:80px" id="showcase">
+    <h1 style="margin-top: 50px" class="w3-jumbo"><b>Notre carte</b></h1>
+    <h1 style="margin-top: 20px" class="w3-xxxlarge w3-text-red"><b>Les entrées</b></h1>
+    <hr style="width:50px;border:5px solid red;" class="w3-round">
+    <h2 class="w3-xlarge">
+        {% for cartes in carte %}
+            {% if cartes.category == 'Entrées' %}
+            <p>{{ cartes.title }} - {{ cartes.price / 100|number_format(2) }} €<br>
+                {{ cartes.description }}</p><br>
+            {% endif %}
+        {% endfor %}
+    </h2>
+
+</div>
+
+<div class="w3-half w3-container">
+        <img src="{{ asset('img/Tartines savoyarde au reblochon.jpg') }}" class="w3-round w3-image w3-mobile margin-top" alt="Menu" style="width:65%;">
+</div>
+
+
+</div>
+
+<div class="w3-main w3-row T2" style="margin-left:350px;">
+    <div class="w3-container w3-half" style="margin-top:80px" id="showcase">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Les plats</b></h1>
+        <hr style="width:50px;border:5px solid red;" class="w3-round">
+
+        <h2 class="w3-xlarge">
+            {% for cartes in carte %}
+                {% if cartes.category == 'Plats' %}
+                    <p>{{ cartes.title }} - {{ cartes.price / 100|number_format(2) }} €<br>
+                        {{ cartes.description }}</p><br>
+                {% endif %}
+            {% endfor %}
+        </h2>
+    </div>
+
+        <div class="w3-half w3-container margin-top2">
+            <img src="{{ asset('img/Gratin savoyard.jpg') }}" class="w3-round w3-image" alt="Menu" style="width:65%;">
+        </div>
+
+
+</div>
+
+<div class="w3-main w3-row T3" style="margin-left:350px;">
+    <div class="w3-container w3-half" style="margin-top:80px" id="showcase">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Les desserts</b></h1>
+        <hr style="width:50px;border:5px solid red;" class="w3-round">
+
+        <h2 class="w3-xlarge">
+            {% for cartes in carte %}
+                {% if cartes.category == 'Dessert' %}
+                    <p>{{ cartes.title }} - {{ cartes.price / 100|number_format(2) }} €<br>
+                        {{ cartes.description }}</p><br>
+                {% endif %}
+            {% endfor %}
+        </h2>
+    </div>
+
+    <div class="w3-half w3-container margin-top2">
+        <img src="{{ asset('img/desserts.jpg') }}" class="w3-round w3-image" alt="Menu" style="width:65%;">
+    </div>
+
+
+</div>
+
+
+</body>
+
+<footer>
+    {{ include('Layout/footerLayout.html.twig') }}
+</footer>
+
+</html>

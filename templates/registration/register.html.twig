@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Head -->
+<head>
+    <title>Quai Antique - connexion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ include('Layout/headLayout.html.twig') }}
+    <link rel="stylesheet" href="{{ asset('CSS/security.css') }}">
+</head>
+<!-- END Head -->
+
+
+<!-- NavBar -->
+{{ include('Layout/navbarLayout.html.twig') }}
+<!-- END NavBar -->
+
+{% block body %}
+<div class="container text-center" style="margin-top: 100px">
+    <h1 class="mt-4 text-center">Formulaire d'inscription</h1>
+
+    {{ form(form) }}
+
+<p class="p-4 text-center">Vous avez déjà un compte client ? : <a href="/connexion"> Se connecter</a></p>
+</div>
+{% endblock %}
