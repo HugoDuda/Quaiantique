@@ -4,7 +4,6 @@ namespace App\Controller\Admin;
 
 use App\Entity\Booking;
 use App\Entity\Carte;
-use App\Entity\Restaurant;
 use App\Entity\Time;
 use App\Entity\Menu;
 use App\Entity\User;
@@ -57,6 +56,7 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::subMenu('Gestion des horaires', 'fas fa-bars')->setSubItems([
             MenuItem::linkToCrud('Afficher et modifier les horaires', 'fas fa-eye', Time::class)
         ]);
+
         yield MenuItem::linkToRoute('Retourner sur le site', 'fa fa-door-open', 'app_index');
     }
 }
