@@ -21,8 +21,8 @@ class MenuCrudController extends AbstractCrudController
         return $crud
             ->setEntityLabelInPlural('menu')
             ->setEntityLabelInSingular('menus')
-            ->setPageTitle("index", "Afficher le menu")
-            ->setPageTitle("new", "Modifier le menu");
+            ->setPageTitle("index", "Afficher et modifier le menu")
+            ->setPageTitle("new", "Ajouter un menu");
     }
 
     public function configureFields(string $pageName): iterable

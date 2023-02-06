@@ -24,9 +24,9 @@ class UserCrudController extends AbstractCrudController
         return $crud
             ->setEntityLabelInPlural('utilisateurs')
             ->setEntityLabelInSingular('utilisateur')
-
             ->setPageTitle("index", "Afficher les utilisateurs")
-            ->setPageTitle("new", "Créer un utilisateur");
+            ->setPageTitle("new", "Vous ne pouvez pas créer d'utilisateur par le tableau d'administration")
+            ->setPageTitle("edit", "Vous ne pouvez pas modifier d'utilisateur par le tableau d'administration");
     }
 
     public function configureFields(string $pageName): iterable
@@ -34,10 +34,12 @@ class UserCrudController extends AbstractCrudController
         return [
             IdField::new('id')
                 ->hideOnForm(),
-            EmailField::new('email'),
+            EmailField::new('email')
+                ->hideOnForm(),
             TextField::new('password')
-                ->hideOnIndex()->hideOnDetail(),
-            ArrayField::new('roles'),
+                ->hideOnIndex()->hideOnDetail()->hideOnForm(),
+            ArrayField::new('roles')
+                ->hideOnForm(),
         ];
     }
 

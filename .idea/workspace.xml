@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/BookingCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/BookingCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/MenuCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/MenuCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/RestaurantCrudController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/TimeCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/TimeCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/UserCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/UserCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +268,7 @@
       <workItem from="1675415580120" duration="14288000" />
       <workItem from="1675498951460" duration="6346000" />
       <workItem from="1675672830108" duration="5000" />
-      <workItem from="1675674991810" duration="3394000" />
+      <workItem from="1675674991810" duration="5592000" />
     </task>
     <servers />
   </component>

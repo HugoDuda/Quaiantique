@@ -26,7 +26,7 @@ class BookingCrudController extends AbstractCrudController
             ->setEntityLabelInSingular('réservation')
 
             ->setPageTitle("index", "Afficher les réservations")
-            ->setPageTitle("new", "Créer une réservation");
+            ->setPageTitle("new", "Vous ne pouvez pas ajouter de réservation par le tableau d'administration");
     }
 
     public function configureFields(string $pageName): iterable
@@ -34,11 +34,16 @@ class BookingCrudController extends AbstractCrudController
         return [
             IdField::new('id')
                 ->hideOnForm(),
-            TextField::new('Allergy'),
-            TimeField::new('hours'),
-            DateField::new('day'),
-            IntegerField::new('guestNumber'),
-            EmailField::new('email'),
+            TextField::new('Allergy')
+                ->hideOnForm(),
+            TimeField::new('hours')
+                ->hideOnForm(),
+            DateField::new('day')
+                ->hideOnForm(),
+            IntegerField::new('guestNumber')
+                ->hideOnForm(),
+            EmailField::new('email')
+                ->hideOnForm(),
         ];
     }
 }

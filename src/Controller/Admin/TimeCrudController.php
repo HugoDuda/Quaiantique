@@ -21,7 +21,8 @@ class TimeCrudController extends AbstractCrudController
             ->setEntityLabelInPlural('horaire')
             ->setEntityLabelInSingular('horaires')
 
-            ->setPageTitle("index", "Afficher et modifier les horaires (ne pas ajouter, mais uniquement modifier l'horaire)");
+            ->setPageTitle("index", "Afficher et modifier les horaires")
+            ->setPageTitle("new", "Créer une horaire seulement si vous avez aucune horaire existante");
     }
 
     public function configureFields(string $pageName): iterable
