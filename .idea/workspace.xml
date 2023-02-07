@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ImageCrudController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ImageRepository.php" beforeDir="false" />
-    </list>
+    <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -266,7 +261,7 @@
       <workItem from="1675498951460" duration="6346000" />
       <workItem from="1675672830108" duration="5000" />
       <workItem from="1675674991810" duration="9412000" />
-      <workItem from="1675759604315" duration="9736000" />
+      <workItem from="1675759604315" duration="10341000" />
     </task>
     <servers />
   </component>
