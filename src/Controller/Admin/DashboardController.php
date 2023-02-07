@@ -58,10 +58,6 @@ class DashboardController extends AbstractDashboardController
             MenuItem::linkToCrud('Afficher et modifier les horaires', 'fas fa-eye', Time::class)
         ]);
 
-        yield MenuItem::subMenu('Gestion des images', 'fas fa-bars')->setSubItems([
-            MenuItem::linkToCrud('Afficher et modifier les images', 'fas fa-eye', Image::class)
-        ]);
-
         yield MenuItem::linkToRoute('Retourner sur le site', 'fa fa-door-open', 'app_index');
     }
 }

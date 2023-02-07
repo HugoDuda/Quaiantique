@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgDatabase/Coûte savoyarde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/imgUpload/Coûte savoyarde.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgDatabase/Tartiflette savoyarde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/imgUpload/Tartiflette savoyarde.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgDatabase/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/imgUpload/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ImageCrudController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ImageRepository.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +266,7 @@
       <workItem from="1675498951460" duration="6346000" />
       <workItem from="1675672830108" duration="5000" />
       <workItem from="1675674991810" duration="9412000" />
-      <workItem from="1675759604315" duration="8960000" />
+      <workItem from="1675759604315" duration="9736000" />
     </task>
     <servers />
   </component>
