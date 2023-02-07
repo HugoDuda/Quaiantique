@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgDatabase/Coûte savoyarde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/imgUpload/Coûte savoyarde.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgDatabase/Tartiflette savoyarde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/imgUpload/Tartiflette savoyarde.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgDatabase/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/imgUpload/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
@@ -180,113 +143,10 @@
       <path value="$PROJECT_DIR$/vendor/jms/metadata" />
     </include_path>
   </component>
-  <component name="ProblemsViewState">
-    <option name="autoscrollToSource" value="true" />
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2KOq3Z8bAqdo6sWaqd66g4oGaho" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/apps/ECF-Restaurant",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
-    ]
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\apps\ECF-Restaurant\templates\bundles\TwigBundle\Exception" />
-      <recent name="C:\xampp\apps\ECF-Restaurant\templates" />
-      <recent name="C:\xampp\apps\ECF-Restaurant\public\CSS" />
-      <recent name="C:\xampp\apps\ECF-Restaurant\templates\security" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\apps\ECF-Restaurant" />
-      <recent name="C:\xampp\apps\ECF-Restaurant\public\imgDatabase" />
-      <recent name="C:\xampp\apps\ECF-Restaurant\public\img" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
-      <method v="2" />
-    </configuration>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="" />
-      <created>1673855778522</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1673855778522</updated>
-      <workItem from="1673855779786" duration="20726000" />
-      <workItem from="1673939650816" duration="1622000" />
-      <workItem from="1673941401980" duration="6550000" />
-      <workItem from="1673958853447" duration="4096000" />
-      <workItem from="1674030788154" duration="9130000" />
-      <workItem from="1674114588241" duration="10862000" />
-      <workItem from="1674203062734" duration="12390000" />
-      <workItem from="1674228205378" duration="1294000" />
-      <workItem from="1674298616215" duration="4207000" />
-      <workItem from="1674384256436" duration="1892000" />
-      <workItem from="1674459955820" duration="3698000" />
-      <workItem from="1674469957283" duration="5000" />
-      <workItem from="1674469976401" duration="13000" />
-      <workItem from="1674470020236" duration="32000" />
-      <workItem from="1674470059109" duration="4000" />
-      <workItem from="1674470079296" duration="9418000" />
-      <workItem from="1674546270975" duration="6581000" />
-      <workItem from="1674635059626" duration="11409000" />
-      <workItem from="1674719790565" duration="14574000" />
-      <workItem from="1674806942598" duration="13094000" />
-      <workItem from="1674985930034" duration="9497000" />
-      <workItem from="1675023121157" duration="594000" />
-      <workItem from="1675062675043" duration="19816000" />
-      <workItem from="1675111122933" duration="6402000" />
-      <workItem from="1675123264888" duration="126000" />
-      <workItem from="1675236623143" duration="14721000" />
-      <workItem from="1675330192948" duration="12437000" />
-      <workItem from="1675415580120" duration="14288000" />
-      <workItem from="1675498951460" duration="6346000" />
-      <workItem from="1675672830108" duration="5000" />
-      <workItem from="1675674991810" duration="9412000" />
-      <workItem from="1675759604315" duration="8960000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/phpunit.xml.dist" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
   </component>
 </project>
