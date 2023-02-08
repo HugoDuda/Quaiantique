@@ -33,7 +33,7 @@
 
     <div class="mySlides">
         <img style="margin-top: 60px" class="w3-image w3-animate-fading" src="
-
+            {{ asset('img/Index/bg.jpg') }}
 
             " alt="Image fondu savoyarde" width="1024" height="591">
         <div class="w3-padding-large w3-min-opacity w3-display-center">
@@ -43,8 +43,7 @@
 
     <div class="mySlides">
     <img style="margin-top: 60px" class="w3-image w3-animate-fading w3-min-opacity" src="
-
-
+            {{ asset('img/Index/Croûte savoyarde.jpg') }}
         " alt="Image fondu savoyarde" width="1024" height="591">
     <div class="w3-padding-large w3-max-opacity w3-display-center">
         <h1 class="w3-xxlarge">Croûte savoyarde</h1>
@@ -53,14 +52,13 @@
 
     <div class="mySlides">
         <img style="margin-top: 60px" class="w3-image w3-animate-fading" src="
-
-
+            {{ asset('img/Index/Tartiflette savoyarde.jpg') }}
             " alt="Image fondu savoyarde" width="1024" height="591">
         <div class="w3-padding-large w3-min-opacity w3-display-center">
             <h1 class="w3-xxlarge">Fondue savoyarde</h1>
         </div>
     </div>
-
+    <a href="/réservation" class="w3-button w3-hover-pale-yellow w3-amber w3-xxlarge w3-round-xlarge">Prendre une réservation</a>
     <hr>
     <h1 class="w3-center" style="font-size : 40px">Mos menus</h1><br><br />
                 {% for menus in menu %}

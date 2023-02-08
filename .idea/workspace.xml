@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ImageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Vich/Coûte savoyarde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Index/Croûte savoyarde.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Vich/Tartiflette savoyarde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Index/Tartiflette savoyarde.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Vich/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Index/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,8 +172,6 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/symfonycasts/verify-email-bundle" />
-      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
-      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -269,7 +267,7 @@
       <workItem from="1675672830108" duration="5000" />
       <workItem from="1675674991810" duration="9412000" />
       <workItem from="1675759604315" duration="10931000" />
-      <workItem from="1675845082158" duration="9668000" />
+      <workItem from="1675845082158" duration="10614000" />
     </task>
     <servers />
   </component>
