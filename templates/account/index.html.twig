@@ -20,14 +20,11 @@
 <!-- END NavBar -->
 
 <body style="margin-top: 200px;">
-<div class="example-wrapper">
+<div class="example-wrapper text-center">
     <h1 style="font-size: 25px">Votre compte :</h1>
 
-    <ul>
-        <li>Email : {{ app.user.email }}<a href=""> Modifier</a></li>
-        <li>Mot de passe : <a href=""> Modifier</a></li>
-        <li><a href="/déconnexion"> Me déconnecter</a></li>
-    </ul>
+    Vous êtes connecté avec {{ app.user.email }}<br>
+    <a href="/déconnexion"> Me déconnecter</a>
 
 </div>
 </body>
