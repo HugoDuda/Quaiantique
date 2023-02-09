@@ -58,7 +58,11 @@
             <h1 class="w3-xxlarge">Fondue savoyarde</h1>
         </div>
     </div>
+    {% if app.user == true %}
     <a href="/réservation" class="w3-button w3-hover-pale-yellow w3-amber w3-xxlarge w3-round-xlarge">Prendre une réservation</a>
+    {% else %}
+    <a href="/réservation" class="w3-button w3-hover-pale-yellow w3-amber w3-xxlarge w3-round-xlarge">Identifiez vous pour réserver en ligne</a>
+    {% endif %}
     <hr>
     <h1 class="w3-center" style="font-size : 40px">Mos menus</h1><br><br />
                 {% for menus in menu %}

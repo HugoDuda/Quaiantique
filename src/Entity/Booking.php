@@ -24,9 +24,7 @@ class Booking
     #[ORM\Column]
     private ?int $guestNumber = null;
 
-    /**
-     * @ORM\Column(nullable=true)
-     */
+    #[ORM\Column(length: 255, nullable: true)]
     private ?string $Allergy = null;
 
     #[ORM\Column(length: 255)]
@@ -81,7 +79,7 @@ class Booking
         return $this->Allergy;
     }
 
-    public function setAllergy(string $Allergy): self
+    public function setAllergy(?string $Allergy): self
     {
         $this->Allergy = $Allergy;
 
