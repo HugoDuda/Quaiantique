@@ -1,27 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-h1{
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 28px;
-    padding: 40px;
-}
-a, footer{
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body {font-family: "Times New Roman", Georgia, serif;}
+h1, footer {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 25px;
 }
-label {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 25px;
-}
-input, p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+h2, h3, a, label {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
 }
 body {
     background-color: #3f300e;
     color: white;
 }
-h2 {
-    background-color: #fdbf08;
+input, p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 input[type="checkbox"] {
     margin-left: 5px;

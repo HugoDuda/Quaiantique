@@ -16,7 +16,7 @@
 <!-- END NavBar -->
 
 <body>
-<div class="container text-center" style="margin-top: 100px">
+<div class="container text-center" style="margin-top: 200px">
 
     {% for message in app.flashes('success') %}
         <div class="alert alert-success mt-4">
@@ -30,7 +30,7 @@
         </div>
     {% endfor %}
 
-    <h1 class="mt-4 position-relative">Formulaire de connexion</h1>
+    <h1 class="mt-4 position-relative"  style="margin-bottom: 50px">Formulaire de connexion</h1>
         <form action="{{ path('security.login') }}" method="post">
             <div class="form-group">
                 <label for="username" class="form-label mt-4" >Adresse email</label>
