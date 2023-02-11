@@ -22,5 +22,10 @@
   "homepage": "https://github.com/Raayds/ECF-Restaurant#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@hotwired/stimulus": "^3.0.0",
+    "@symfony/ux-chartjs": "file:vendor/symfony/ux-chartjs/assets",
+    "chart.js": "^3.4.1"
   }
 }
