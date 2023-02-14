@@ -32,10 +32,10 @@ class CarteCrudController extends AbstractCrudController
         return [
             IdField::new('id')
                 ->hideOnForm(),
-            TextField::new('title'),
-            TextField::new('description'),
-            MoneyField::new('price')->setCurrency('EUR'),
-            TextField::new('category'),
+            TextField::new('title', 'Titre'),
+            TextField::new('description', 'Description'),
+            MoneyField::new('price', 'Prix')->setCurrency('EUR'),
+            TextField::new('category', 'Catégorie (Entrées, Plats, Dessert)'),
         ];
     }
 }

@@ -29,9 +29,9 @@ class MenuCrudController extends AbstractCrudController
     {
         return [
             IdField::new('id')->hideOnForm(),
-            TextField::new('formules'),
-            MoneyField::new('price')->setCurrency('EUR'),
-            TextField::new('description'),
+            TextField::new('formules', 'Formules'),
+            MoneyField::new('price', 'Prix')->setCurrency('EUR'),
+            TextField::new('description', 'Description'),
         ];
     }
 }

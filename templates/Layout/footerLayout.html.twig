@@ -1,15 +1,14 @@
 <footer class="container text-center w3-padding-32" style="background-color: #342c1f; color: #ffffff; margin-top: 30px">
     <div class="row">
+        <hr>
     <div class="col-md-6">Ouvert chaques jours<br>
-
         {% for time in times %}
     <hr>
         Midi {{ time.morningOpening|date('H:i') }} - {{ time.morningClosing|date('H:i') }}
     <hr>
         Soir {{ time.eveningOpening|date('H:i')  }} - {{ time.eveningClosing|date('H:i') }}</div>
-
         {% endfor %}
-
+        <hr>
     <div class="col-md-6 ms-auto">Nous contacter<br>
         <hr>
         Email : contact@quaiantique.ovh

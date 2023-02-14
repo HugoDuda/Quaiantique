@@ -34,15 +34,15 @@ class BookingCrudController extends AbstractCrudController
         return [
             IdField::new('id')
                 ->hideOnForm(),
-            TextField::new('Allergy')
+            TextField::new('Allergy', 'Allergies')
                 ->hideOnForm(),
-            TimeField::new('hours')
+            TimeField::new('hours', 'Heures')
                 ->hideOnForm(),
-            DateField::new('day')
+            DateField::new('day', 'Date')
                 ->hideOnForm(),
-            IntegerField::new('guestNumber')
+            IntegerField::new('guestNumber', 'Nombre de convives')
                 ->hideOnForm(),
-            EmailField::new('email')
+            EmailField::new('email', 'Adresse mail')
                 ->hideOnForm(),
         ];
     }
