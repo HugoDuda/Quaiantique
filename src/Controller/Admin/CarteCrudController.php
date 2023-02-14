@@ -6,6 +6,7 @@ use App\Entity\Carte;
 use Doctrine\DBAL\Types\FloatType;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Field\ChoiceField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\MoneyField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
@@ -35,7 +36,11 @@ class CarteCrudController extends AbstractCrudController
             TextField::new('title', 'Titre'),
             TextField::new('description', 'Description'),
             MoneyField::new('price', 'Prix')->setCurrency('EUR'),
-            TextField::new('category', 'Catégorie (Entrées, Plats, Dessert)'),
+            ChoiceField::new('category', 'Catégorie (Entrées, Plats, Dessert)')->SetChoices([
+                'Entrées' => 'Entrées',
+                'Plats' => 'Plats',
+                'Dessert' => 'Dessert',
+            ]),
         ];
     }
 }

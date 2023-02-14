@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Layout/footerLayout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Layout/footerLayout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CarteCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CarteCrudController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +275,7 @@
       <workItem from="1676121947794" duration="4709000" />
       <workItem from="1676195269837" duration="606000" />
       <workItem from="1676279099751" duration="11372000" />
-      <workItem from="1676359195418" duration="4149000" />
+      <workItem from="1676359195418" duration="5223000" />
     </task>
     <servers />
   </component>
