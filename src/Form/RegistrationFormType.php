@@ -46,7 +46,6 @@ class RegistrationFormType extends AbstractType
                 ],
                 'invalid_message' => 'Les mots de passe ne correspondent pas.'
             ])
-
             ->add('agreeTerms', CheckboxType::class, [
                 'label' => 'Accepter les conditions d\'utilisation',
                 'mapped' => false,

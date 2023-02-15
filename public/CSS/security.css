@@ -22,4 +22,6 @@ input[type="checkbox"] {
 .buttonClass {
     font-size: 23px;
     font-family: 'Oleo Script Swash Caps', cursive;
+    margin: 0 auto;
+    display: table;
 }
