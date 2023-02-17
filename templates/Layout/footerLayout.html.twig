@@ -1,6 +1,6 @@
 <footer class="container text-center w3-padding-32" style="background-color: #342c1f; color: #ffffff; margin-top: 30px">
     <div class="row">
-    <div class="col-md-6">Ouvert chaques jours<br>
+    <div class="col-md-6">Ouvert chaque jours<br>
         {% for time in times %}
     <hr>
         Midi {{ time.morningOpening|date('H:i') }} - {{ time.morningClosing|date('H:i') }}
