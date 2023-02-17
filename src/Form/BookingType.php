@@ -28,7 +28,6 @@ class BookingType extends AbstractType
                 'data' => $email,
             ])
             ->add('day', DateType::class, [
-                
                 'label'=>'Jour',
                 'widget' => 'single_text',
                 'format' => 'yyyy-MM-dd',
