@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bab55c4c-ca21-4eaf-a621-348a74271e28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/Layout/footerLayout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Layout/footerLayout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Layout/navbarLayout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Layout/navbarLayout.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +279,8 @@
       <workItem from="1676359195418" duration="5223000" />
       <workItem from="1676471305883" duration="3833000" />
       <workItem from="1676535122368" duration="3454000" />
-      <workItem from="1676618416686" duration="605000" />
+      <workItem from="1676618416686" duration="1324000" />
+      <workItem from="1676633626670" duration="3006000" />
     </task>
     <servers />
   </component>

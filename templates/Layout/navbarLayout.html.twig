@@ -14,9 +14,9 @@
             <a href="/réservation" class="w3-bar-item w3-button w3-hover-pale-yellow w3-round-medium">Réserver</a>
             {% endif %}
 
-            {% if app.user == true and app.user.email == 'admin@quaiantique.fr' %}
+            {% if app.user == true and app.user.email == 'admin@quaiantique.ovh' %}
                 <a href="/admin" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-round-medium">Tableau de bord administrateur</a>
-            {% elseif app.user == true and app.user.email != 'admin@quaiantique.fr' %}
+            {% elseif app.user == true and app.user.email != 'admin@quaiantique.ovh' %}
                 <a href="/mon-compte" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-round-medium">Mon compte client</a>
             {% else %}
                 <a href="/connexion" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-round-medium" style="margin-right: 3px">Connexion</a>
@@ -33,9 +33,9 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Fermer ×</a>
-    {% if app.user == true and app.user.email == 'admin@quaiantique.fr' %}
+    {% if app.user == true and app.user.email == 'admin@quaiantique.ovh' %}
         <a href="/admin" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-padding-16 w3-round-medium">Tableau de bord administrateur</a>
-    {% elseif app.user == true and app.user.email != 'admin@quaiantique.fr' %}
+    {% elseif app.user == true and app.user.email != 'admin@quaiantique.ovh' %}
         <a href="/mon-compte" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-padding-16 w3-round-medium">Mon compte client</a>
     {% else %}
         <a href="/connexion" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-padding-16 w3-round-medium" style="margin-bottom: 3px">Connexion</a>

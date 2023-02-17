@@ -30,7 +30,7 @@ class AppFixtures extends Fixture
     $user = [];
 
     $admin = new User();
-    $admin->setEmail('admin@quaiantique.fr')
+    $admin->setEmail('admin@quaiantique.ovh')
         ->setRoles(['ROLE_USER', 'ROLE_ADMIN'])
         ->setPlainpassword('A2ZdE$R3fVk!y49Pt4fDe5?S');
 
