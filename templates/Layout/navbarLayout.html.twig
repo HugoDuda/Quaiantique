@@ -38,6 +38,7 @@
     {% elseif app.user == true and app.user.email != 'admin@quaiantique.ovh' %}
         <a href="/mon-compte" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-padding-16 w3-round-medium">Mon compte client</a>
     {% else %}
+
         <a href="/connexion" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-padding-16 w3-round-medium" style="margin-bottom: 3px">Connexion</a>
         <a href="/inscription" class="w3-bar-item w3-button w3-hover-pale-yellow w3-amber w3-padding-16 w3-round-medium">Inscription</a>
     {% endif %}
