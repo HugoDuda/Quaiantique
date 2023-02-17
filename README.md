@@ -1,8 +1,4 @@
-# ECF-Restaurant
-
-Mot de passe :
-
-User (Appfixture) : Motd€pa$$€s€curi$€6789
-admin@quaiantique.fr (Admin) : A2ZdE$R3fVk!y49Pt4fDe5?S
-
-La création du compte admin est automatique à l'aide d'AppFixture.
+Pour accéder à l'interface administrateur en local, il faut créer le compte admin, donc installer DoctrineFixturesBundle :
+- composer require --dev orm-fixtures (Symfony 4 et supérieur)
+- php bin/console doctrine:fixtures:load (la base de donnée se purge après cette commande)
+Le compte administrateur est créé, ainsi que des utilisateurs exemples, il est aussi possible d'en créer avec le formulaire d'inscription.
