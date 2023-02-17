@@ -23,7 +23,7 @@ class BookingType extends AbstractType
 
         $builder
             ->add('email', TextType::class, [
-                'label' => 'Mail',
+                'label' => 'Adresse mail',
                 'disabled' => true,
                 'data' => $email,
             ])
@@ -34,7 +34,7 @@ class BookingType extends AbstractType
                 'model_timezone' => 'Europe/Paris',
                 ])
             ->add('hours', TimeType::class, [
-                'label'=>'heure',
+                'label'=>'Heure',
                 'input' => 'datetime',
                 'widget' => 'choice',
                 'hours' => [11, 12, 13, 14, 18, 19, 20, 21],
